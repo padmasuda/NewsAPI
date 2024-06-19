@@ -1,0 +1,80 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.category{
+    font-size: 15px;
+}
+
+/*Styles for button which displays news*/
+.News{
+    margin:10px;
+    background-color: #007BFF;
+    color:#fff;
+}
+/* Styles for individual news articles */
+.news-article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Image styling within news articles */
+.news-article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Heading styling within news articles */
+.news-article h2 {
+    font-size: 1.5em;
+}
+
+/* Paragraph styling within news articles */
+.news-article p {
+    font-size: 1em;
+}
+
+/* Link styling within news articles */
+.news-article a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.news-article a:hover {
+    text-decoration: underline;
+}
+
+/* Container for pagination buttons */
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styling for individual pagination buttons */
+.page-button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect for pagination buttons */
+.page-button:hover {
+    background-color: #ddd;
+}
+
+/* Active pagination button styling */
+.page-button.active {
+    background-color: #007BFF;
+    color: white;
+}
